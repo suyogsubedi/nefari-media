@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Langar&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+.hero-container {
+  /* background: linear-gradient(#3b1e59, #9f89a8); */
+  height: 100vh;
+  width: 100%;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  background: url("../images/agency/agency--hero.jpg") center/cover;
+  height: 60%;
+  color: #27034d;
+}
+.hero-container .texts {
+  width: 90%;
+  padding-left: 2rem;
+}
+.hero-container .texts h2 {
+  color: #2f0d53;
+}
+
+/* Mobile Friendly */
+@media (max-width: 768px) {
+  .hero-container .texts {
+    width: 90%;
+    padding-left: 2rem;
+  }
+  .circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: green;
+    margin-left: 70%;
+  }
+  .about-digital {
+    padding-left: 1rem;
+    color: #2f0d53;
+    width: 100%;
+  }
+  .about-digital .images {
+    padding-top: 50%;
+    background: url("../images/agency/brand.jpg") center/cover;
+    width: 60%;
+    height: 30vh;
+    margin-left: 20%;
+    box-shadow: 10px 10px 5px #aaaaaa;
+  }
+  .about-digital .brand {
+    transform: rotate(-90deg);
+    position: absolute;
+    /* margin-top: -90px; */
+    margin-top: -30%;
+    margin-left: -9%;
+  }
+  .about-digital .about-digital-text {
+    width: 40%;
+    margin-left: 30%;
+    font-size: 0.8rem;
+  }
+  .about-digital .pointer {
+    margin-left: 35%;
+  }
+
+  /* Verticals */
+  .verticals-container {
+    background-color: #27034d;
+  }
+  .verticals-top-text {
+    width: 90%;
+    margin: auto;
+  }
+  .verticals-bottom-text {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  .verticals-top-text p {
+    padding-top: 2rem;
+    color: #0e8f61;
+  }
+  .verticals-bottom-text {
+    list-style: none;
+    color: white;
+    font-size: 0.8rem;
+    line-height: 2rem;
+  }
+  .verticals-graph {
+    width: 100%;
+    background-color: red;
+    height: 10%;
+    height: 40vh;
+    display: flex;
+  }
+  .verticals-graphs {
+    width: 100%;
+    height: 30vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .at-our-agency-heading {
+    color: #27034d;
+    padding-left: 2%;
+  }
+  .at-our-agency-views {
+    padding-top: 10%;
+    width: 50%;
+    color: #0e8f61;
+    margin: auto;
+  }
+  #fire {
+    position: absolute;
+    margin-top: -45%;
+    margin-left: 4%;
+  }
+  .at-our-agency-accoldaes {
+    width: 100%;
+    height: 40vh;
+  }
+  .at-our-agency-square-shape {
+    border-style: solid;
+    border-width: 0.2rem;
+    width: 70px;
+    height: 70px;
+    border-color: #00e06d;
+    margin-top: 2rem;
+  }
+  .at-our-agency-accoldaes h2 {
+    color: #2f0d53;
+    letter-spacing: 0.1rem;
+  }
+  .shapes-content {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+  }
+  .at-our-agency-square-shape img {
+    width: 100%;
+    margin-left: 30%;
+  }
+  .partnership {
+    padding-top: 10%;
+    width: 100%;
+    height: 85vh;
+    background-color: #27034d;
+    text-align: center;
+    color: white;
+  }
+  .partnership .input-fields {
+    padding-top: 5%;
+  }
+  .partnership small {
+    font-size: 0.8rem;
+  }
+  .partnership input[type="text"] {
+    width: 90%;
+    margin: auto;
+    border: none;
+    border-bottom: 3px solid #01e471;
+    color: white;
+    margin-left: 5%;
+    margin-bottom: 8%;
+    background-color: #27034d;
+  }
+  input:focus,
+  textarea:focus,
+  select:focus {
+    outline: none;
+    color: white;
+  }
+  .partnership .button {
+    margin-top: 10%;
+    width: 50%;
+    margin-left: 22%;
+    padding: 3% 5% 3% 5%;
+    background-color: #27034d;
+    border: 4px solid #0e8f61;
+  }
+  .thin-line {
+    width: 80%;
+    /* padding-top: 2rem; */
+    width: 80%;
+
+    margin-top: 4rem;
+    margin-left: 10%;
+    border: 0.001px solid green;
+  }
+  .partnership .social-media {
+    display: flex;
+
+    justify-content: center;
+  }
+  .partnership .social-media a {
+    padding-right: 4%;
+    padding-top: 14%;
+    color: #3e3154;
+  }
+}
