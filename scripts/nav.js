@@ -12,3 +12,4 @@ navbar.addEventListener("click", (e)=>{
     console.log("Hello")
    }
 })
+
