@@ -1,148 +1,281 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nefori Media</title>
     <!-- FOR Navbar -->
-    <link rel="stylesheet" href="./styles/homepage.css">
-    
-    <!-- Font Awesome CDN -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-    <!-- Javascript animation Library -->
- 
-</head>
-<body>
-   <div class="hero-conatiner">
-       <div class="nav-container">
-           <div class="logo">
-            <h2>Nefari Media</h2>
-            <small>Agency</small>
-           </div>
-           <div class="hamburger-menu">
-            <i id="navIcon" class="fas fa-bars fa-2x"></i>
-           </div>
-           <div class="navItems" id="navItems">
-               <h1>Agency</h1>
-               <h1>Services</h1>
-               <h1>Work</h1>
-               <h1>Contact</h1>
-               <h1>Insights</h1>
-           </div>
-       </div>
-       <div class="our-vision">
-           <div class="square-box">
-               
-               
-               <p>Driven by innovation and human behavior, our website design agency is changing the way brands connect with audiences in a digital world. Discover why market leaders choose our enterprise solutions.</p>
-           </div>
-           <h1 class="square-box-top">Digital</h1> <br> <br>
-           <h2 class="square-box-bottom">Transformation</h2>
-       </div>
-       
-   </div>
-   <div class="showcase-container">
-       <div class="phone-image">
-           <img src="./images/iphone.png" alt="">
-           <h3>How our digital agency helped online media conglomerate News Corp re-engage employees with personalized company benefits</h3>
-       </div>
-       
-   </div>
-   <div class="gallary-container">
-       <div class="dancing-gif">
-           <img src="./images/dancing.gif" alt="">
-       </div>
-       <div class="gallary-grid">
-           <img src="./images/grid.jpg" alt="">
-           
-          
-           
-           
-       </div>
-       <div class="gallary-text-background">
-        <div class="gallary-text">
-            <h3>See how our website design agency gave an education software leader new ways to connect with audiences through a person-based selling approach</h3>
-        </div>
+    <link rel="stylesheet" href="./styles/homepage.css" />
 
-       </div>
-       
-   </div>
-   <div class="importance-container">
-       <div class="importance-container-phone">
-           <div class="image-here">
-               <img class="mac-image-phone" src="./images/mobile_macbook.png" alt="">
-                <h3 class="texts">How advance eCommerce strategy, animation
-                    and custom web development reinvented the portable audio
-                    experience for a global brand
-                </h3>
-                <div class="square-box-macbook"></div>
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="hero-container">
+      <div class="nav-container">
+        <div class="logo">
+          <h2>Nefari Media</h2>
+          <br />
+          <small>Agency</small>
+        </div>
+        <div class="hamburger-menu">
+          <a href="./htmlfiles/nav.html">
+            <i id="hidden-nav" class="fas fa-bars fa-2x"></i
+          ></a>
+        </div>
+        <div class="navItems" id="navItems">
+          <h1>Agency</h1>
+          <h1>Services</h1>
+          <h1>Work</h1>
+          <h1>Contact</h1>
+          <h1>Insights</h1>
+        </div>
+      </div>
+      <div class="our-vision">
+        <div class="square-box">
+          <p>
+            Driven by innovation and human behavior, our website design agency
+            is changing the way brands connect with audiences in a digital
+            world. Discover why market leaders choose our enterprise solutions.
+          </p>
+          <!-- Disabled For Mobile -->
+          <div class="for-wide-screen">
+            <h1 class="square-box-top">Digital</h1>
+            <br />
+            <br />
+            <h2 class="square-box-bottom">Transformation</h2>
+          </div>
+        </div>
+        <!-- Disabled For Wide Screen -->
+        <div class="for-mobile-screen">
+          <h1 class="square-box-top">Digital</h1>
+          <br />
+          <br />
+          <h2 class="square-box-bottom">Transformation</h2>
+        </div>
+      </div>
+    </div>
+
+    <!-- Showcase Container -->
+    <div class="showcase-container-phone">
+      <div class="showcase-container">
+        <div class="phone-image">
+          <img src="./images/iphone.png" alt="" />
+          <h3>
+            How our digital agency helped online media conglomerate News Corp
+            re-engage employees with personalized company benefits
+          </h3>
+        </div>
+      </div>
+    </div>
+    <!-- This screen is only for pc -->
+    <div class="showcase-container-widescreen">
+      <div class="container-1">
+        <p>
+          Featured: <br />
+          News Corps
+        </p>
+        <br />
+        <br />
+        <strong>
+          <h1>
+            A Brave <br />
+            New <br />
+            Perspective
+          </h1>
+        </strong>
+        <p>
+          <br />
+          <br />
+          How our digital agency helped online media conglomerate News Corp
+          re-engage employees with personalized company benefits
+        </p>
+        <a href="#"><i class="fas fa-arrow-right"></i> View</a>
+      </div>
+      <div class="container-2">
+        <img src="./images/iphone.png" alt="" />
+        <div class="moving-square">
+          <img src="./images/award-02.jpg" alt="" srcset="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Gallary Container -->
+    <div class="gallary-container">
+      <!-- Gallary Container for phone starts from here -->
+      <div class="gallary-container-phone">
+        <div class="dancing-gif">
+          <img src="./images/dancing.gif" alt="" />
+        </div>
+        <div class="gallary-grid">
+          <img src="./images/grid.jpg" alt="" />
+        </div>
+        <div class="gallary-text-background">
+          <div class="gallary-text">
+            <h3>
+              See how our website design agency gave an education software
+              leader new ways to connect with audiences through a person-based
+              selling approach
+            </h3>
+          </div>
+        </div>
+      </div>
+      <!-- Gallary Container For Phone Ends here -->
+
+      <!--  -->
+      <!-- Galllary Container For Wide Screens Start From Here -->
+      <div class="gallary-container-wide-screen">
+        <!-- <img src="./images/dancing.gif" class="gif" /> -->
+        <div class="flex-container">
+          <div class="gallary-texts">
+            <p>Featured Schools</p>
+            <br />
+            <br />
+            <h1>
+              Wowing <br />
+              100 <br />
+              Million <br />
+              members
+            </h1>
+            <br />
+            <br />
+            <p>
+              See how our website design agency gave an education software
+              leaders new ways to connect through audience through a persona
+              based selling approach
+            </p>
+            <br />
+            <br />
+            <a href="#">View</a>
+          </div>
+          <!-- Container 2 -->
+
+          <div class="phone-div-container">
+            <div class="phone-div">
+              <img src="./images/grid.jpg" alt="" />
+              <div class="phonebutton"></div>
             </div>
-       </div>
-   </div>
-   <div class="insights-container">
-       <div class="half-box">
-           
-       </div>
-       <div class="insight-text">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Living Out Loud Container For WideScreen -->
+    <div class="living-loud">
+      <div class="living-macbook">
+        <img src="./images/macbook.png" alt="" />
+        <h3>
+          How advanced eCommerce strategy, animation and custom web development
+          reinvented the portable audio experience for a global brand
+        </h3>
+      </div>
+    </div>
+    <!-- Importance Container -->
+    <div class="importance-container">
+      <div class="importance-container-phone">
+        <div class="image-here">
+          <img
+            class="mac-image-phone"
+            src="./images/mobile_macbook.png"
+            alt=""
+          />
+          <h3 class="texts">
+            How advance eCommerce strategy, animation and custom web development
+            reinvented the portable audio experience for a global brand
+          </h3>
+          <div class="square-box-macbook"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Insight Container starts from here  -->
+    <div class="insights-container">
+      <div class="half-box"></div>
+      <div class="insight-text">
         <h1 class="insight-container-text">Our Insights</h1>
         <div class="insight-links">
-            <h3> Customer Loyalty Driven
-                <br>  By Data</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, dolore.</p>
-            <i id="arrow" class="fas fa-long-arrow-alt-right"></i>
-        </div> 
+          <h3>
+            Customer Loyalty Driven <br />
+            By Data
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+            dolore.
+          </p>
+          <i id="arrow" class="fas fa-long-arrow-alt-right"></i>
+        </div>
         <div class="insight-links">
-            <h3> Customer Loyalty Driven
-                <br>  By Data</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, dolore.</p>
-            <i id="arrow" class="fas fa-long-arrow-alt-right"></i>
-        </div> 
+          <h3>
+            Customer Loyalty Driven <br />
+            By Data
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+            dolore.
+          </p>
+          <i id="arrow" class="fas fa-long-arrow-alt-right"></i>
+        </div>
         <div class="insight-links">
-            <h3> Customer Loyalty Driven
-                <br>  By Data</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, dolore.</p>
-            <i id="arrow" class="fas fa-long-arrow-alt-right"></i>
-        </div> 
-        
+          <h3>
+            Customer Loyalty Driven <br />
+            By Data
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+            dolore.
+          </p>
+          <i id="arrow" class="fas fa-long-arrow-alt-right"></i>
+        </div>
+      </div>
     </div>
-       
-   </div>
-   <footer>
-       <div class="texts">
-           <h3>Our Digital Agency <br> Is Hiring</h3>
-       </div>
-       <!--Circle Injected From CSS  -->
-       <div class="big-circle">
 
-       </div>
-       <!-- Smaller Circle Injected From Css -->
-       <div class="small-circle">
+    <!-- Footer Starts From Here -->
+    <footer>
+      <div class="texts">
+        <h3>
+          Our Digital Agency <br />
+          Is Hiring
+        </h3>
+      </div>
+      <!--Circle Injected From CSS  -->
+      <div class="big-circle"></div>
+      <!-- Smaller Circle Injected From Css -->
+      <div class="small-circle"></div>
+      <!-- Square Box Injected from CSS -->
+      <div class="square-box-footer"></div>
+      <!-- Straight Line Injected From CSS -->
+      <div class="straight-line"></div>
 
-       </div>
-       <!-- Square Box Injected from CSS -->
-       <div class="square-box-footer"></div>
-       <!-- Straight Line Injected From CSS -->
-       <div class="straight-line">
+      <h4>Looking for a web & Content Designer View <br />Opportunity</h4>
+      <!-- straight Line Injected From CSS -->
+      <div class="thin-line"></div>
+      <span>&#169; 2019 Nefari Media. All Rights Reserved Careers</span>
 
-       </div>
-      
-       <h4>Looking for a web & Content Designer View <br>Opportunity</h4>
-       <!-- straight Line Injected From CSS -->
-       <div class="thin-line">
-
-       </div>
-       <span>&#169; 2019 Nefari Media. All Rights Reserved Careers</span>
-
-       <div class="social-media">
+      <div class="social-media">
         <a href="#"><i class="fab fa-instagram"></i></a>
         <a href="#"><i class="fab fa-facebook-f"></i></a>
         <a href="#"><i class="fab fa-linkedin-in"></i></a>
         <a href="#"><i class="fab fa-twitter"></i></a>
-       </div>
+      </div>
+    </footer>
 
-   </footer>
+    <!-- Scripts -->
+    <!-- Javascript animation Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
 
-   <!-- Scripts -->
-   <script src="./scripts/nav.js"></script>
-</body>
+    <!-- AOS -->
+
+    <!-- Local Script File -->
+    <script src="./animations.js"></script>
+
+    <script src="./scripts/nav.js"></script>
+
+    <script></script>
+  </body>
 </html>

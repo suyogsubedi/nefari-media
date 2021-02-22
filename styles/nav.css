@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+.nav-container {
+  width: 100%;
+  background-color: #20063c;
+  height: 100vh;
+}
+
+.nav-top {
+  display: flex;
+  justify-content: space-between;
+  color: whitesmoke;
+  padding: 2rem;
+}
+
+.nav-item {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  justify-content: space-around;
+}
+.container1 {
+  margin-left: 8%;
+}
+
+.container1 .agency {
+  width: 20vw;
+  height: 13rem;
+  background-color: whitesmoke;
+  text-align: center;
+  padding-top: 4rem;
+}
+.container1 .agency h1 {
+  font-weight: bolder;
+  color: #2d0c4e;
+}
+
+.container1 .work {
+  margin-top: 3rem;
+  width: 20vw;
+  height: 20rem;
+  text-align: center;
+  padding-top: 8rem;
+  color: whitesmoke;
+  background: url("../images/agency/sky.jpg");
+}
+.container1 .work h1 {
+  font-weight: bolder;
+}
+
+.container2 .insights {
+  margin-top: 10rem;
+  width: 15vw;
+  height: 20rem;
+
+  background-color: white;
+}
+
+.container3 .services {
+  text-align: center;
+  width: 20rem;
+  height: 35vh;
+  background-color: white;
+  color: black;
+}
+
+.container3 .contact {
+  margin-top: 2rem;
+  width: 20rem;
+  height: 20vh;
+  background-color: white;
+}
+
+.container1 div:hover {
+  transition: outline 5s linear;
+  border: 15px solid green;
+  outline-width: 10px;
+}
+
+.container2,.container3 {
+  text-align: center;
+  
+}
+.container2 .insights{
+    padding-top:7rem;
+}
+
+.container2 div:hover {
+  border: 15px solid green;
+}
+.container3 div:hover{
+  border: 15px solid green;  
+}
+
+.container3 .services{
+    padding-top: 7rem;
+}
+.container3 .contact{
+    padding-top: 3rem;
+}

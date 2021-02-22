@@ -1,0 +1,8 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.wordWrap": "on",
+    "editor.formatOnSave": true,
+    "html.format.indentInnerHtml": true,
+    "html.format.indentHandlebars": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+}

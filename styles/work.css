@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.phone-container {
+  display: none;
+}
+/* Wide Screen */
+.wide-screen-container {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+}
+.wide-screen .second-container .circle {
+  width: 100px;
+  height: 100px;
+
+  border-radius: 50px;
+  background-color: black;
+  border-radius: 1px solid gray;
+}
+.wide-screen .first-container {
+  width: 40%;
+}
+.wide-screen .second-container {
+  width: 20%;
+  padding-left: 6%;
+}
+.wide-screen .third-container {
+  width: 40%;
+}
+
+.first-container img {
+  width: 100%;
+}
+
+.third-container img {
+  width: 100%;
+}
+.third-container i {
+  padding-left: 80%;
+}
+
+/*  */
+/*  */
+/*  */
+/* Styling For Phone */
+@media (max-width: 768px) {
+  .wide-screen-container {
+    display: none;
+  }
+  .phone-container {
+    display: block;
+  }
+  nav {
+    width: 100%;
+    height: 13vh;
+    background-color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5%;
+    z-index: 1;
+    border-bottom: 1px solid black;
+  }
+  .nav-items {
+    display: flex;
+    justify-content: space-between;
+    padding: 4%;
+  }
+
+  section .photo {
+    width: 100%;
+    height: 90vh;
+  }
+  .first {
+    position: relative;
+    margin-bottom: 5%;
+  }
+  .first img {
+    width: 90%;
+
+    margin-left: 5%;
+    height: 90vh;
+    object-fit: cover;
+  }
+  .text-links {
+    position: absolute;
+    margin-top: -35%;
+    margin-left: 10%;
+    color: white;
+  }
+}
+
+/* Styling for hidden Navbar */
+.hidden-nav {
+  width: 100%;
+  height: 100vh;
+  background-color: #20063c;
+  color: white;
+  z-index: 1;
+}
+.hidden-nav-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.hidden-nav-top p {
+  font-size: 2rem;
+}
+.hidden-nav .nav-item {
+  text-align: center;
+  padding-top: 10%;
+  line-height: 4.5rem;
+}
+.hidden-nav li {
+  font-size: 3rem;
+}
+.hidden-nav {
+  display: none;
+  top: 0;
+  position: fixed;
+}

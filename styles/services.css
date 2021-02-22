@@ -18,6 +18,7 @@
   margin-left: 20%;
   margin-top: 10%;
 }
+
 .straight-line-down {
   width: 0.1rem;
   background-color: red;
@@ -277,6 +278,7 @@
   width: 100%;
   height: 100vh;
   background-color: red;
+  position: relative;
 }
 .services-photo .bottom {
   width: 100%;
@@ -342,4 +344,11 @@ footer {
 .social-media a {
   color: #2b1942;
   padding-right: 2%;
+}
+
+/* Media Query For Services Page */
+@media screen and (max-width: 768px) {
+  .wide-screen {
+    /* display: none; */
+  }
 }

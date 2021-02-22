@@ -7,7 +7,348 @@
   box-sizing: border-box;
   font-family: cursive;
 }
-.hero-conatiner {
+/* For WideScreen */
+@media (min-width: 1025px) {
+  .our-vision .for-mobile-screen,
+  .gallary-container-phone {
+    display: none;
+  }
+  .nav-container {
+    padding: 2rem;
+  }
+
+  .square-box {
+    margin-top: 8%;
+    margin-left: 10%;
+    border-style: solid;
+    border-width: 1rem;
+    border-color: #00e06d;
+    height: 350px;
+    padding-top: 10%;
+    max-width: 350px;
+    position: relative;
+  }
+  .square-box .for-wide-screen .square-box-top,
+  .square-box-bottom {
+    position: absolute;
+    margin-top: -80%;
+    font-size: 4rem;
+    color: white;
+  }
+  /* Showcase Container Starts From Here */
+  .showcase-container {
+    width: 100%;
+  }
+  .showcase-container .phone-image img {
+    width: 20%;
+  }
+  /* Showcase Container Ends From Here */
+
+  /* Gallary Container Starts From Here */
+  .gallary-container .gallary-container-wide-screen {
+    width: 100%;
+    background-color: #230640;
+  }
+  .gallary-container-wide-screen .flex-container {
+    display: flex;
+  }
+
+  .showcase-container-phone {
+    display: none;
+  }
+  .showcase-container-widescreen {
+    display: flex;
+    justify-content: space-around;
+  }
+  .showcase-container-widescreen .container-1 {
+    margin-top: 10%;
+    margin-left: 30%;
+    width: 40%;
+  }
+  .showcase-container-widescreen .container-1 p {
+    color: #41e692;
+    width: 40%;
+  }
+  .showcase-container-widescreen .container-1 h1 {
+    color: #300753;
+  }
+  .showcase-container-widescreen .container-2 {
+    margin-top: 10%;
+    width: 100%;
+    position: relative;
+  }
+  .showcase-container-widescreen .container-2 img {
+    width: 50%;
+    margin-right: 30%;
+  }
+  .showcase-container-widescreen .container-2 .moving-square {
+    width: 30%;
+    height: 35%;
+    border: 15px solid #00e06d;
+    position: absolute;
+    top: 0;
+    margin-left: 35%;
+    z-index: -1;
+  }
+  .showcase-container-widescreen .container-2 .moving-square img {
+    margin-top: 50%;
+    margin-left: 30%;
+  }
+  /* Showcase Container Ends Here */
+
+  /* Gallary Container Starts From Here */
+  .gallary-container-wide-screen {
+    width: 100%;
+    height: 90vh;
+    color: white;
+  }
+  .gallary-container-wide-screen .gallary-texts {
+    width: 50%;
+    margin-top: 5%;
+    text-align: center;
+  }
+  .gallary-container-wide-screen .gallary-texts p {
+    width: 50%;
+    margin: auto;
+  }
+  .gallary-container-wide-screen .phone-div-container img {
+    margin-top: 10%;
+    width: 90%;
+    margin-left: -10%;
+  }
+  /* Gallary Container Ends Here */
+  /* Living Out Loud Container Starts From Here */
+  .living-loud {
+    padding-top: 10%;
+    position: relative;
+  }
+  .living-loud .living-macbook img {
+    width: 70%;
+    margin: auto;
+  }
+  .living-macbook {
+    margin-left: 30%;
+  }
+  .living-loud .living-macbook h3 {
+    width: 20%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    margin-top: 15%;
+    color: #300753;
+    margin-left: -15%;
+    font-size: 16px;
+  }
+  .insights-container {
+    padding-top: 5%;
+    height: 90vh;
+    margin-top: 10%;
+    text-align: center;
+    position: relative;
+  }
+  .insight-container-text {
+    font-size: 5rem;
+    padding-bottom: 10%;
+    color: #210b39;
+  }
+  .insights-container .half-box {
+    width: 20%;
+    height: 5vh;
+    padding: 2rem;
+    border-bottom: solid 16px;
+    border-left: solid 16px;
+    border-right: solid 16px;
+    padding: 5rem;
+    margin-left: 40%;
+    margin-top: -4%;
+    color: #00e06d;
+    position: absolute;
+    z-index: -1;
+  }
+  .insight-links:hover {
+    transition: background-color 2s ease;
+    background-color: #210b39;
+    color: white;
+    padding: 2%;
+  }
+  footer {
+    text-align: center;
+  }
+}
+/* For Tablets  */
+@media (min-width: 761px) and (max-device-width: 1024px) {
+  /* I messed up html so need to do this */
+  .our-vision .for-mobile-screen,
+  .showcase-container-widescreen,
+  .gif {
+    display: none;
+  }
+  /* Things Disabled For Wide Screen but needed for small screen */
+  .gallary-container-phone {
+    display: none;
+  }
+  body {
+    width: 100vw;
+  }
+  .our-vision {
+    position: relative;
+  }
+  .hero-container {
+    width: 100vw;
+  }
+  .square-box {
+    border-style: solid;
+    border-width: 1rem;
+    border-color: #00e06d;
+    height: 350px;
+    padding-top: 10%;
+    max-width: 300px;
+    margin-left: 10%;
+    margin-top: 20%;
+    position: relative;
+  }
+  .square-box p {
+    margin-top: 14%;
+    margin-left: 5%;
+    width: 280px;
+    color: white;
+  }
+
+  .square-box-top,
+  .square-box-bottom {
+    position: absolute;
+    margin-top: -109%;
+
+    margin-left: 20%;
+    font-size: 3.5rem;
+    color: white;
+  }
+
+  /* Showcase Container */
+  .showcase-container {
+    width: 100%;
+  }
+  .phone-image img {
+    width: 50%;
+    margin-left: 25vw;
+  }
+
+  .phone-image h3 {
+    width: 80%;
+    font-size: 1.5rem;
+    padding-bottom: 20%;
+    margin: auto;
+    color: #7e7e7e;
+  }
+
+  /* Gallary Container */
+  .gallary-container {
+    width: 100%;
+    height: 68vh;
+    padding-top: 15%;
+    background-color: #22033e;
+  }
+  .gallary-container-wide-screen .flex-container {
+    display: flex;
+  }
+  .gallary-container-wide-screen {
+    position: relative;
+  }
+
+  .phone-div {
+    max-width: 650px;
+    height: 390px;
+    border: 50px solid #310d56;
+    border-radius: 60px;
+    position: relative;
+    margin-left: 30%;
+  }
+  .gallary-container-wide-screen .phone-div-container {
+    overflow: hidden;
+  }
+  .gallary-container-wide-screen .gallary-texts {
+    color: white;
+    width: 50%;
+    padding-left: 10%;
+  }
+  .gallary-container-wide-screen .gallary-texts p,
+  h2,
+  p,
+  a {
+    margin-bottom: 12%;
+    color: white;
+  }
+
+  .phone-div img {
+    min-width: 549px;
+    height: 290px;
+    border-radius: 1%;
+  }
+
+  /* Living Loud Container which is disable for small screens */
+  .living-loud {
+    width: 100%;
+    height: 100vh;
+  }
+  .living-loud img {
+    width: 80%;
+
+    padding-top: 10%;
+    margin-left: 20%;
+  }
+  .living-macbook h3 {
+    width: 40%;
+    margin: auto;
+  }
+  /* Insight Container */
+  .insights-container {
+    text-align: center;
+    position: relative;
+  }
+  .insight-text h1 {
+    font-size: 5rem;
+    z-index: 1;
+    color: #310255;
+  }
+  .insights-container .half-box {
+    position: absolute;
+    margin-left: 37%;
+    margin-top: -6%;
+    z-index: 0;
+    /* margin-top: 10%; */
+  }
+  .insights-container h3 {
+    font-size: 1.5rem;
+  }
+  .insight-links:hover {
+    transition: background-color 2s ease;
+    background-color: #210b39;
+    color: white;
+  }
+  .insight-text .insight-container-text {
+    margin-bottom: 20%;
+  }
+
+  .half-box {
+    width: 30%;
+    height: 10vh;
+    padding: 2rem;
+    border-bottom: solid 16px;
+    border-left: solid 16px;
+    border-right: solid 16px;
+    padding: 5rem;
+    margin: auto;
+    color: #00e06d;
+  }
+
+  footer {
+    text-align: center;
+  }
+}
+
+/* Styling For Tablet Ends Here */
+/* GLobal Stylings */
+.hero-container {
   background: linear-gradient(#3b1e59, #9f89a8);
   height: 100vh;
   width: 100%;
@@ -35,6 +376,10 @@
 .mac-image-phone {
   display: none;
 }
+.showcase-container-widescreen .container-2 {
+  display: none;
+}
+
 footer {
   width: 100%;
   height: 55vh;
@@ -107,6 +452,18 @@ footer .social-media {
 /*  Small Screen */
 
 @media (max-width: 760px) {
+  /* Things that are disabled for mobile phones */
+  .square-box .for-wide-screen {
+    display: none;
+  }
+  .gallary-container-wide-screen {
+    display: none;
+  }
+  .living-loud {
+    display: none;
+  }
+
+  /* Stylings */
   .nav-container {
     padding-top: 1.2rem;
     position: sticky;

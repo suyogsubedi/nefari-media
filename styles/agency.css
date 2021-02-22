@@ -27,8 +27,199 @@
   color: #2f0d53;
 }
 
+@media (min-width: 769px) {
+  .hero-container {
+    height: 55vh;
+  }
+  .hero-container .circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: green;
+    margin-left: 10%;
+  }
+  .about-digital {
+    /* display: flex; */
+    position: relative;
+  }
+  .about-digital p {
+    position: absolute;
+    width: 50%;
+    color: #2f0d53;
+  }
+  .about-digital .left {
+    margin-top: -10%;
+    width: 50%;
+    background-color: white;
+    box-shadow: 5px 5px #888888;
+  }
+  .about-digital .right {
+    margin-left: 50%;
+    padding-bottom: 10%;
+    width: 50%;
+    /* box-shadow: 5px 5px #888888; */
+  }
+  .about-digital-text {
+    margin-top: 5%;
+  }
+  .about-digital .images {
+    display: none;
+  }
+  .image-container-for-wide-screen {
+    margin-top: 10%;
+    width: fit-content;
+    padding-top: 10%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+  .wide-image {
+    position: relative;
+  }
+  .image-container-for-wide-screen img {
+    width: 55%;
+  }
+  .image-container-for-wide-screen .image-vertical {
+    transform: rotate(90deg);
+  }
+  .about-digital-text-small-screen {
+    display: none;
+  }
+
+  /* Vertical Container  */
+  .verticals-container-mobile {
+    display: none;
+  }
+  .verticals-container-ipad {
+    margin-top: 10%;
+    display: flex;
+    height: 60vh;
+  }
+  .verticals-container-ipad .container-1 {
+    width: 100vw;
+    margin-left: 10%;
+    padding-top: 28%;
+    position: relative;
+  }
+  .verticals-container-ipad .container-1 p {
+    padding-top: 10%;
+    width: 50%;
+    color: #27034d;
+    position: absolute;
+  }
+  .verticals-container-ipad .container-1 h1 {
+    color: #27034d;
+  }
+
+  .verticals-container-ipad .container-1 i {
+    color: #00e06d;
+  }
+  .container-1 .recent-accolades {
+    margin-top: 50%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+  }
+
+  .container-1 .recent-accolades .square-box {
+    width: 5rem;
+    height: 5rem;
+    border: 3px solid green;
+  }
+  .container-1 .recent-accolades div {
+    margin-right: 30%;
+  }
+
+  .verticals-container-ipad .container-2 {
+    width: 100vw;
+    padding-left: 5%;
+    background-color: #27034d;
+    padding-top: 10%;
+  }
+  .verticals-container-ipad .container-2 h1 {
+    color: white;
+  }
+  .verticals-container-ipad .container-2 p {
+    padding-top: 5%;
+    width: 100%;
+    color: #00e06d;
+  }
+  .container-2 .verticals-bottom-text {
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    padding-top: 15%;
+  }
+  .container-2 .verticals-bottom-text li {
+    list-style: none;
+    padding-bottom: 14px;
+  }
+  /* Disabling things in wide screen */
+  .at-our-agency {
+    display: none;
+  }
+  .partnership {
+    display: none;
+  }
+  .partnership-tablet {
+    padding-top: 10%;
+    text-align: center;
+    height: 40vh;
+    width: 100%;
+    background-color: #27034d;
+  }
+  .partnership-tablet h1 {
+    color: white;
+  }
+
+  .partnership-tablet input[type="text"] {
+    width: 90%;
+    margin: auto;
+    border: none;
+    border-bottom: 3px solid #01e471;
+    color: white;
+    margin-left: 5%;
+    margin-bottom: 8%;
+    background-color: #27034d;
+  }
+  .partnership-tablet small {
+    color: white;
+  }
+
+  .partnership-tablet button {
+    width: 25%;
+    height: 50px;
+    background-color: #2f0d53;
+    color: white;
+    border: 1px solid #0e8f61;
+  }
+  .tabletFooter {
+    background-color: #27034d;
+    color: white;
+    height: 2vh;
+    text-align: center;
+  }
+  .tabletFooter i {
+    margin-left: 15px;
+  }
+  .tabletFooter a {
+    color: white;
+  }
+}
+
 /* Mobile Friendly */
 @media (max-width: 768px) {
+  .image-container-for-wide-screen {
+    display: none;
+  }
+  .verticals-container-ipad {
+    display: none;
+  }
+  .partnership-tablet {
+    display: none;
+  }
   .hero-container .texts {
     width: 90%;
     padding-left: 2rem;
@@ -44,6 +235,7 @@
     padding-left: 1rem;
     color: #2f0d53;
     width: 100%;
+    margin-top: 15%;
   }
   .about-digital .images {
     padding-top: 50%;
@@ -70,7 +262,7 @@
   }
 
   /* Verticals */
-  .verticals-container {
+  .verticals-container-mobile {
     background-color: #27034d;
   }
   .verticals-top-text {

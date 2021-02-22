@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-container {
+  width: 100%;
+  height: 70vh;
+  background-color: #20063c;
+}
+
+.nav-top {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.nav-texts {
+  text-align: center;
+  color: white;
+  margin-top: 15vh;
+}
+.nav-texts h1 {
+  font-size: 3rem;
+}
+.nav-texts p {
+  width: 50vw;
+  margin: auto;
+}
+.nav-texts a {
+  color: white;
+}
+
+.others {
+  margin: 5vh auto 0 auto;
+  width: 100%;
+  padding-left: 25vw;
+}
+
+.others .text-container {
+  width: 50vw;
+
+  text-align: center;
+}
+.others i {
+  margin-top: 5%;
+}
+
+.others:hover {
+  transition: 1s;
+  color: white;
+  text-align: center;
+  height: 20vh;
+  background-color: #20063c;
+}
+
+/* Footer */
+footer {
+  padding-top: 2%;
+  display: flex;
+  justify-content: space-around;
+  height: 5vw;
+}
+
+/* Media Queries Phone */
+@media (max-width: 700px) {
+  .nav-top {
+    padding: 3%;
+  }
+  .nav-container h1 {
+    font-size: 1.6rem;
+  }
+
+  .nav-texts p {
+    font-size: 0.8rem;
+    width: 100%;
+  }
+
+  .others {
+    margin-top: 3vh;
+    width: 100%;
+    height: 40vh;
+  }
+  .others:hover {
+    transition: 1s;
+    color: white;
+
+    height: 40vh;
+    background-color: #20063c;
+  }
+  .others h1 {
+    width: 100%;
+  }
+  /* .others i {
+    margin-top: 2%;
+} */
+
+  .text-container h1 {
+    width: 100%;
+
+    font-size: 1.4rem;
+  }
+  footer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  footer .social {
+    width: 100%;
+    margin: auto;
+  }
+  footer .social i {
+    margin-left: 10vw;
+    padding-left: 3vw;
+    margin-top: 3vh;
+  }
+}
+
+/* Galaxy Fold */
+
